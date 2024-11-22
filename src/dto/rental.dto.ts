@@ -1,6 +1,6 @@
 export class CreateRentalDto {
-  memberId: number;
-  bookId: number;
+  memberId: string;
+  bookId: string;
   rentDate: Date;
   returnDate: Date;
 }
